@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
-import data from "./data";
+import text from "./TextData";
 
 function App() {
   const [count , setCount] = useState(0);
@@ -19,7 +19,7 @@ function App() {
         " Ayyo ! you are demanding very much paragraph in one go, kindly take little litlle 😀"
       );
     }
-    setTextData(data.slice(0, amount));
+    setTextData(text.slice(0, amount));
   };
   return (
     <div className="app">
