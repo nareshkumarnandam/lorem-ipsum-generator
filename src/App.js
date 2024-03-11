@@ -23,14 +23,10 @@ function App() {
   };
   return (
     <div className="app">
-      <h3>tired of boring lorem ipsum?</h3>
+      <h1>Tired of boring lorem ipsum?</h1>
       <form className="form" onSubmit={submitHandler}>
-        <label htmlFor="numberOfParas">paragraphs:</label>
-        <input
-          type="number"
-          id="numberOfParas"
-          value={count}
-          onChange={(e) => setCount(e.target.value)}
+        <label htmlFor="numberOfParas">Paragraphs:</label>
+        <input type="number" id="numberOfParas" value={count} onChange={(e) => setCount(e.target.value)}
         />
         <button className="btn">Generate</button>
       </form>

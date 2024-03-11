@@ -1,38 +1,58 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Caveat:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Fjalla+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200;300;400;500;600;700&family=Poor+Story&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+body{
+  background-color: #FFE6D6;
+  font-family: "Nunito", sans-serif;
+}
+
+.app {
+  padding-top: 50px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  width: 80px;
+  height: 100%;
+  border: none;
+  background-color: #eb8240;
   color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 500;
 }
-
-.App-link {
-  color: #61dafb;
+label{
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: rgb(77, 77, 77);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 50px;
+}
+#numberOfParas{
+  width: 40px;
+  height: 85%;
+  border: 2px solid gray;
+  padding: 0 ;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.text-generated{
+  padding: 60px;
+  font-size: 1.5rem;
+}
+p{
+  background-color: #f09f6c;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 8px;
 }
